@@ -4,7 +4,7 @@ import './index.css';
 import Routes from './Routes';
 import registerServiceWorker from './registerServiceWorker';
 
-document.title = 'Event Store'
+document.title = 'Event Store';
 
 ReactDOM.render(<Routes />, document.getElementById('root'));
 registerServiceWorker();
